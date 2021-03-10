@@ -79,6 +79,14 @@ h1 {
   display: flex;
 }
 
+.right li {
+  font-weight: 600;
+}
+
+.right li:hover {
+  opacity: 0.8;
+}
+
 .right li:last-child {
   margin-left: 20px;
 }
@@ -404,4 +412,29 @@ h1 {
 
 .footer__right--menu a:hover {
   font-weight: 600;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+  .top {
+    flex-direction: column;
+    padding: 12px 0;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .top {
+    height: 100px;
+  }
+  .right {
+    flex-direction: column;
+  }
+
+  .right li:last-child {
+    margin-left: 0;
+  }
+
+  .right li {
+    margin-top: 10px;
+  }
 }
