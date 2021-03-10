@@ -281,7 +281,7 @@ h1 {
   transform: scale(1.1);
 }
 
-/* contact */
+/* Reservations */
 
 .contact p {
   font-style: italic;
@@ -289,9 +289,9 @@ h1 {
   line-height: 1.2;
   font-weight: 500;
   letter-spacing: -0.025rem;
-  width: 460px;
   padding-bottom: 50px;
   color: rgb(43, 43, 43);
+  max-width: 20rem;
 }
 .reservations__container {
   display: flex;
@@ -310,7 +310,7 @@ h1 {
   background-color: #f7f7f8;
   flex-grow: 2;
   color: black;
-  padding: 50px;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
   justify-items: center;
