@@ -206,10 +206,10 @@ h1 {
 /* About Us */
 .aboutus {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 2rem 1rem;
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: white;
   background-color: rgb(32, 32, 32);
 }
@@ -217,11 +217,12 @@ h1 {
 .ammenity {
   display: flex;
   align-items: center;
+  padding: 0.2rem;
+  flex-direction: col;
 }
 
 .ammenity span {
-  padding-left: 0.4rem;
-  padding-right: 1rem;
+  margin-left: 0.6rem;
 }
 
 .beer i {
@@ -484,5 +485,9 @@ h1 {
 
   .footerwrapper {
     flex-direction: column;
+  }
+
+  .aboutus {
+    font-size: 0.7rem;
   }
 }
