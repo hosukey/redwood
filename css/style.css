@@ -203,6 +203,31 @@ h1 {
   height: auto;
 }
 
+/* About Us */
+.aboutus {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 1rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: white;
+  background-color: rgb(32, 32, 32);
+}
+
+.ammenity {
+  display: flex;
+  align-items: center;
+}
+
+.ammenity span {
+  padding-left: 0.4rem;
+  padding-right: 1rem;
+}
+
+.beer i {
+  font-size: 1rem;
+}
+
 /* rooms & rates */
 .cardscontainer {
   display: flex;
