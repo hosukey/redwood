@@ -225,11 +225,12 @@ h1 {
   margin-left: 0.6rem;
 }
 
-.beer i {
-  font-size: 1rem;
+/* rooms & rates */
+
+.rooms {
+  padding-top: 2rem;
 }
 
-/* rooms & rates */
 .cardscontainer {
   display: flex;
   flex-wrap: wrap;
@@ -310,15 +311,18 @@ h1 {
 
 /* Reservations */
 
+.contact {
+  padding-top: 4rem;
+}
 .contact p {
   font-style: italic;
   font-size: 1.6rem;
   line-height: 1.2;
   font-weight: 500;
   letter-spacing: -0.025rem;
-  padding-bottom: 50px;
+  padding-bottom: 1.6rem;
   color: rgb(43, 43, 43);
-  max-width: 20rem;
+  max-width: 420px;
 }
 .reservations__container {
   display: flex;
@@ -326,7 +330,7 @@ h1 {
 }
 
 .reservations__container--map {
-  min-width: 400px;
+  min-width: 280px;
   flex-grow: 1;
 }
 .googlemap {
@@ -396,6 +400,12 @@ h1 {
   transition: all 0.5s ease;
   transform: scale(1.1);
   color: white;
+}
+
+.cancellation {
+  color: gray;
+  padding-top: 1rem;
+  max-width: 460px;
 }
 
 /* Footer */
