@@ -56,9 +56,7 @@ h1 {
 }
 
 /* navigation */
-.navigation {
-  margin-bottom: 1rem;
-}
+
 .top {
   background-color: #7f0000;
   color: white;
@@ -90,9 +88,23 @@ h1 {
   margin-left: 20px;
 }
 
+.navigation {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .menu {
   display: flex;
-  justify-content: space-evenly;
+}
+
+.navbar_toogleBtn {
+  display: none;
+  position: absolute;
+  margin-top: 0.5rem;
+  right: 1rem;
+  font-size: 1.4rem;
 }
 
 /* main menu links */
@@ -461,6 +473,26 @@ h1 {
 
   .top > .right {
     padding-top: 0.5rem;
+  }
+
+  .navigation {
+    align-items: flex-start;
+    justify-content: center;
+    min-height: 4rem;
+  }
+
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    display: none;
+  }
+
+  .navbar_toogleBtn {
+    display: block;
+  }
+
+  .menu.active {
+    display: flex;
   }
 
   .slider-container {

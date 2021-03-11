@@ -34,3 +34,11 @@ document.querySelector(".prev-slide").addEventListener("click", function() {
 });
 
 
+// Hamburger button
+const toggleBtn = document.querySelector('.navbar_toogleBtn');
+const menu = document.querySelector('.menu');
+
+toggleBtn.addEventListener('click', () => {
+menu.classList.toggle('active');
+});
+
