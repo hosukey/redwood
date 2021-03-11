@@ -3,6 +3,10 @@
     'Helvetica Neue', Arial, sans-serif;
   box-sizing: border-box;
   margin: 0;
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
 }
 
 /* Reset */
@@ -343,7 +347,6 @@ h1 {
   letter-spacing: -0.025rem;
   padding-bottom: 1.6rem;
   color: rgb(43, 43, 43);
-  max-width: 420px;
 }
 .reservations__container {
   display: flex;
@@ -359,6 +362,7 @@ h1 {
 }
 
 .reservations__container--info {
+  width: 100%;
   background-color: #f7f7f8;
   flex-grow: 2;
   color: black;
@@ -370,21 +374,37 @@ h1 {
 
 .reservations__container--info i {
   font-size: 1.2rem;
+  padding-right: 1rem;
 }
 
+.reservation-wrap {
+  display: flex;
+  width: 100%;
+}
+
+.email {
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
 .location i {
   margin-left: 4px;
 }
 
 .reservations__container--call {
   margin-top: 20px;
-}
-
-.number,
-.address,
-.email {
-  padding: 10px;
-  font-weight: 700;
 }
 
 .address-bottom {
