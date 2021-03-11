@@ -27,9 +27,9 @@
 
     <nav class="navigation">
       <ul class="menu">
-        <li><a href="#" class="link1">Home</a></li>
-        <li><a href="#" class="link2">Rooms & Rates</a></li>
-        <li><a href="#" class="link3">Reservations</a></li>
+        <li><a href="index.html" class="link1">Home</a></li>
+        <li><a href="#roomsPage" class="link2">Rooms & Rates</a></li>
+        <li><a href="#contactPage" class="link3">Reservations</a></li>
       </ul>
       <a href="#" class="navbar_toogleBtn">
         <i class="fas fa-bars"></i>
@@ -76,8 +76,11 @@
 
 
 <!-- rooms & rates start  -->
-    <div class="rooms">
+    <div id ="roomsPage" class="rooms">
       <h1>Rooms & Rates</h1>
+      <div class="ad">
+        <p>* Book directly with us to get 10% off of regular room price </p>
+      </div>
       <div class="cardscontainer">
         <div class="card__single card">
           <div class="contents">
@@ -85,7 +88,7 @@
             <div class="contest__desc">One Queen Bed</div>
             <div class="contents__price">$79</div>
             <button class="btn">
-              <a href="#">Book Now</a>
+              <a href="#contactPage">Book Now</a>
             </button>
           </div>
         </div>
@@ -95,15 +98,17 @@
             <div class="contest__desc">Two Queen Beds</div>
             <div class="contents__price">$89</div>
             <button class="btn">
-              <a href="#">Book Now</a>
+              <a href="#contactPage">Book Now</a>
             </button>
           </div>
         </div>
       </div>
+
+ 
     </div>
 
     <!-- reservations start -->
-    <div class="contact">
+    <div id ="contactPage" class="contact">
       <h1>Reservations</h1>
       <div class="reservations__container">
         <div class="reservations__container--map">
@@ -118,10 +123,11 @@
           ></iframe>
         </div>
         <div class="reservations__container--info">
-          <p>Do you need a help making, changing or canceling a reservation?</p>
+          <p>Reservation Request</p>
           <div class="location">
             <i class="fas fa-map-marker-alt"></i>
-            <span class="address">345 18th St N, Brandon, MB R7A 6Z2</span>
+            <span class="address">Redwood Motor Inn</span>
+            <div class="address-bottom">345 18th St N, Brandon, MB R7A 6Z2</div>
           </div>
           <div class="reservations__container--call">
             <i class="fas fa-phone"></i>
@@ -142,6 +148,9 @@
       </div>
     </div>
 
+
+    <div class="empty"></div>
+
     <!-- footer start -->
     <div class="footer">
       <div class="footerwrapper">
@@ -160,9 +169,9 @@
   
         <div class="footer__right">
           <ul class="footer__right--menu">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Rooms & Rates</a></li>
-            <li><a href="#">Reservations</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#roomsPage">Rooms & Rates</a></li>
+            <li><a href="#contactPage">Reservations</a></li>
           </ul>
         </div>
       </div>

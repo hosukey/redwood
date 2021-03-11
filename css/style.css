@@ -99,6 +99,10 @@ h1 {
   display: flex;
 }
 
+.menu li {
+  padding: 0 2rem;
+}
+
 .navbar_toogleBtn {
   display: none;
   position: absolute;
@@ -321,6 +325,11 @@ h1 {
   transform: scale(1.1);
 }
 
+.ad p {
+  padding: 10px;
+  text-align: center;
+}
+
 /* Reservations */
 
 .contact {
@@ -375,6 +384,11 @@ h1 {
 .address,
 .email {
   padding: 10px;
+  font-weight: 700;
+}
+
+.address-bottom {
+  padding-left: 32px;
 }
 
 .contactbtn-call {
@@ -418,6 +432,11 @@ h1 {
   color: gray;
   padding-top: 1rem;
   max-width: 460px;
+}
+
+/* Empty */
+.empty {
+  height: 100px;
 }
 
 /* Footer */
