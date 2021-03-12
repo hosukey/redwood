@@ -28,8 +28,8 @@
     <nav class="navigation">
       <ul class="menu">
         <li><a href="#" class="link1">Home</a></li>
-        <li><a href="#" class="link2">Rooms & Rates</a></li>
-        <li><a href="#" class="link3">Reservations</a></li>
+        <li><a href="#roomsScroll" class="link2">Rooms & Rates</a></li>
+        <li><a href="#contactScroll" class="link3">Reservations</a></li>
       </ul>
       <a href="#" class="navbar_toogleBtn">
         <i class="fas fa-bars"></i>
@@ -76,8 +76,11 @@
 
 
 <!-- rooms & rates start  -->
-    <div class="rooms">
+    <div id="roomsScroll" class="rooms">
       <h1>Rooms & Rates</h1>
+      <div class="rooms--desc">
+        * Book directly with us to get 10% off the regular room price
+      </div>
       <div class="cardscontainer">
         <div class="card__single card">
           <div class="contents">
@@ -85,7 +88,7 @@
             <div class="contest__desc">One Queen Bed</div>
             <div class="contents__price">$79</div>
             <button class="btn">
-              <a href="#">Book Now</a>
+              <a href="#contactScroll">Book Now</a>
             </button>
           </div>
         </div>
@@ -95,7 +98,7 @@
             <div class="contest__desc">Two Queen Beds</div>
             <div class="contents__price">$89</div>
             <button class="btn">
-              <a href="#">Book Now</a>
+              <a href="#contactScroll">Book Now</a>
             </button>
           </div>
         </div>
@@ -103,7 +106,7 @@
     </div>
 
     <!-- reservations start -->
-    <div class="contact">
+    <div id ="contactScroll" class="contact">
       <h1>Reservations</h1>
       <div class="reservations__container">
         <div class="reservations__container--map">

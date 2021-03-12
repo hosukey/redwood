@@ -99,6 +99,10 @@ h1 {
   display: flex;
 }
 
+.menu li {
+  padding: 0 2rem;
+}
+
 .navbar_toogleBtn {
   display: none;
   position: absolute;
@@ -241,6 +245,11 @@ h1 {
 
 .rooms {
   padding-top: 2rem;
+}
+
+.rooms--desc {
+  text-align: center;
+  padding: 1rem;
 }
 
 .cardscontainer {
