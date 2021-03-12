@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redwood Motor Inn</title>
+    <script
+      src="https://kit.fontawesome.com/e8644e93da.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/app.js"></script>
+  </head>
+  <body>
+
+    <!-- top & navigation  -->
+    <div class="top">
+      <ul class="left">
+        <li>Redwood Motor Inn</li>
+      </ul>
+      <ul class="right">
+        <li><a href="mailto:reservationredwoodmotorinn@gmail.com" target="_blank"><i class="fas fa-envelope"></i> reservationredwoodmotorinn@gmail.com</a></li>
+        <li> <a href="tel:204-250-5500"><i class="fas fa-phone"></i> 204-250-5500</li></a>
+      </ul>
+    </div>
+
+    <nav class="navigation">
+      <ul class="menu">
+        <li><a href="index.html" class="link1">Home</a></li>
+        <li><a href="#roomsPage" class="link2">Rooms & Rates</a></li>
+        <li><a href="#contactPage" class="link3">Reservations</a></li>
+      </ul>
+      <a href="#" class="navbar_toogleBtn">
+        <i class="fas fa-bars"></i>
+        </a>
+    </nav>
+  
+
+  
+
+    <!-- JS image slider Start -->
+<div class="slider-container" >
+  <div class="slider">
+    <div class="sliderimage"><img src="images/slider01.jpg" alt=""></div>
+    <div class="sliderimage"><img src="images/slider02.jpg" alt=""></div>
+    <div class="sliderimage"><img src="images/slider03.jpg" alt=""></div>
+  </div>
+  <div class="controls">
+    <div class="control prev-slide"><i class="fas fa-chevron-left"></i></div>
+    <div class="control next-slide"><i class="fas fa-chevron-right"></i></div>
+  </div>
+</div>
+
+
+<!-- About Us start -->
+
+<div class="aboutus">
+  <div class="ammenity location">
+    <i class="fas fa-location-arrow"></i> 
+    <span>Convenient Location</span>
+  </div>
+  <div class="ammenity wifi">
+    <i class="fas fa-wifi"></i>
+    <span>Free Wi-Fi</span></div>
+  <div class="ammenity entrance">
+    <i class="fas fa-door-closed"></i>
+    <span>Private Entrance</span></div>
+  <div class="ammenity beer">
+    <i class="fas fa-beer"></i>
+    <span>Beer vendor on site</span>
+  </div>
+</div>
+<div class="aboutus__line"></div>
+
+
+
+<!-- rooms & rates start  -->
+    <div id ="roomsPage" class="rooms">
+      <h1>Rooms & Rates</h1>
+      <div class="ad">
+        <p>* Book directly with us to get 10% off of regular room price </p>
+      </div>
+      <div class="cardscontainer">
+        <div class="card__single card">
+          <div class="contents">
+            <div class="contents__heading">Single Room</div>
+            <div class="contest__desc">One Queen Bed</div>
+            <div class="contents__price">$79</div>
+            <button class="btn">
+              <a href="#contactPage">Book Now</a>
+            </button>
+          </div>
+        </div>
+        <div class="card__double card">
+          <div class="contents">
+            <div class="contents__heading">Double Room</div>
+            <div class="contest__desc">Two Queen Beds</div>
+            <div class="contents__price">$89</div>
+            <button class="btn">
+              <a href="#contactPage">Book Now</a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- reservations start -->
+    <div id ="contactPage" class="contact">
+      <h1>Reservations</h1>
+      <div class="reservations__container">
+        <div class="reservations__container--map">
+          <iframe
+            class="googlemap"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.2893271770117!2d-99.96434457177905!3d49.85580955415249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52e7975da70de615%3A0x7e227ba18e1ddab!2sRed%20Wood%20Motor%20Inn!5e0!3m2!1sen!2sca!4v1614836476144!5m2!1sen!2sca"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+        <div class="reservations__container--info">
+          <p>Reservation Request</p>
+          <div class="location">
+            <i class="fas fa-map-marker-alt"></i>
+            <span class="address">Redwood Motor Inn</span>
+            <div class="address-bottom">345 18th St N, Brandon, MB R7A 6Z2</div>
+          </div>
+          <div class="reservations__container--call">
+            <i class="fas fa-phone"></i>
+            <span class="number"
+              >204-728-2200</a></span
+            >
+            <button class="contactbtn-call"><a href="tel:1-204-728-2200">Call Now</a></button>
+          </div>
+          <div class="reservations__container--email">
+            <i class="fas fa-envelope"></i>
+            <span class="email">reservationredwoodmotorinn@gmail.com</span>
+            <button class="contactbtn-email"><a href="mailto:reservationredwoodmotorinn@gmail.com" target="_blank">Send Email</a></button>
+          </div>
+          <div class="cancellation">
+            <span>* Free cancellation if notified 24 hours prior to first night of stay</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="empty"></div>
+
+    <!-- footer start -->
+    <div class="footer">
+      <div class="footerwrapper">
+        <div class ="footer__left">
+            <div class="footer__left--logo">
+              <img src="images/redwoodlogo.png" alt="" width="80px">
+            </div>
+            <div class = "footer__left--contact">
+              <ul class="info">
+                <li>Redwood Motor Inn<br>324 18th N <br>Brandon, MB R7A 6Z2</li>
+                <li>204.728.2200 or 877.728.2200 (TOLL)</li>
+                <li>reservationredwoodmotorinn@gmail.com</li>
+              </ul>
+            </div>
+        </div>
+  
+        <div class="footer__right">
+          <ul class="footer__right--menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#roomsPage">Rooms & Rates</a></li>
+            <li><a href="#contactPage">Reservations</a></li>
+          </ul>
+        </div>
+      </div>
+    <div class="footer__bottom">Copyright © 2021 Redwood Motor Inn </div>
+    </div>
+  </body>
+</html>
