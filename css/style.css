@@ -283,7 +283,7 @@ h1 {
 .card__single::before {
   content: '';
   background: no-repeat center/cover
-    url('../images/redwood_single1.jpg');
+    url('https://github.com/hosukey/redwood/blob/main/images/redwood_single1.jpg?raw=true');
   position: absolute;
   z-index: -1;
   width: 100%;
@@ -299,7 +299,7 @@ h1 {
 .card__double::before {
   content: '';
   background: no-repeat center/cover
-    url('../images/redwood_doublebed2.jpg');
+    url('https://github.com/hosukey/redwood/blob/main/images/redwood_doublebed2.jpg?raw=true');
   position: absolute;
   z-index: -1;
   width: 100%;
