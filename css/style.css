@@ -283,7 +283,7 @@ h1 {
 .card__single::before {
   content: '';
   background: no-repeat center/cover
-    url('https://images.unsplash.com/photo-1576675784432-994941412b3d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1652&q=80');
+    url('/images/redwood_single1.jpg');
   position: absolute;
   z-index: -1;
   width: 100%;
@@ -299,14 +299,14 @@ h1 {
 .card__double::before {
   content: '';
   background: no-repeat center/cover
-    url('https://webbox.imgix.net/images/lpcsudkgpkcuocql/44216fa5-82f4-4db8-ac17-20dc8389f4d8.jpg?auto=format,compress&fit=crop&crop=entropy');
+  url('/images/redwood_doublebed2.jpg');
   position: absolute;
   z-index: -1;
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
-  filter: opacity(0.3);
+  filter: opacity(0.5);
 }
 
 .contents__heading {
