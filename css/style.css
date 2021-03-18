@@ -246,7 +246,7 @@ h1 {
 
 /* rooms & rates */
 
-.ad{
+.ad {
   text-align: center;
   padding: 1rem;
 }
@@ -343,7 +343,7 @@ h1 {
 .contact {
   padding-top: 4rem;
 }
-.contact p {
+.subtitle {
   font-style: italic;
   font-size: 1.6rem;
   line-height: 1.2;
@@ -439,6 +439,10 @@ h1 {
   color: gray;
   padding-top: 1rem;
   max-width: 460px;
+}
+
+.cancellation p::before {
+  content: '* ';
 }
 
 /* Footer */
@@ -558,8 +562,8 @@ h1 {
 /* Back to top button */
 
 #myBtn {
-  display: none; 
-  position: fixed; 
+  display: none;
+  position: fixed;
   opacity: 0.8;
   bottom: 30px; /* Place the button at the bottom of the page */
   right: 30px; /* Place the button 30px from the right */
