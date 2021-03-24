@@ -222,6 +222,23 @@ h1 {
   height: auto;
 }
 
+/* sns */
+.sns-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+/* instagram */
+.snapwidget-widget {
+}
+
+/* twitter */
+.twitter-timeline {
+  margin-left: 50px;
+}
+
 /* About Us */
 .aboutus {
   display: flex;
@@ -526,6 +543,20 @@ h1 {
     overflow: hidden;
     height: 200px;
   }
+
+  .sns-container {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .snapwidget-widget {
+    display: none;
+  }
+
+  .twitter-timeline {
+    margin-left: 0;
+    height: 300;
+  }
 }
 
 @media only screen and (max-width: 560px) {
@@ -565,19 +596,19 @@ h1 {
   display: none;
   position: fixed;
   opacity: 0.8;
-  bottom: 30px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: #235897; /* Set a background color */
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 18px 22px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 20px; /* Increase font size */
+  bottom: 30px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #235897;
+  color: white;
+  cursor: pointer;
+  padding: 18px 22px;
+  border-radius: 10px;
+  font-size: 20px;
 }
 
 #myBtn:hover {
-  background-color: #000; /* Add a dark-grey background on hover */
+  background-color: #000;
 }
