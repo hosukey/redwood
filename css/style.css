@@ -549,10 +549,6 @@ h1 {
     padding: 1rem;
   }
 
-  .snapwidget-widget {
-    display: none;
-  }
-
   .twitter-timeline {
     margin-left: 0;
     height: 300;
