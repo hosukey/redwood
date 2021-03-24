@@ -230,8 +230,15 @@ h1 {
   padding: 2rem;
 }
 
+.inner-container {
+  width: 1000px;
+  display: flex;
+  align-items: center;
+}
+
 /* instagram */
 .snapwidget-widget {
+  width: 50%;
 }
 
 /* twitter */
@@ -544,14 +551,13 @@ h1 {
     height: 200px;
   }
 
-  .sns-container {
+  .inner-container {
     flex-direction: column;
-    padding: 1rem;
+    padding: 1.5rem;
   }
 
   .twitter-timeline {
     margin-left: 0;
-    height: 300;
   }
 }
 
